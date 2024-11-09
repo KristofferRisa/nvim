@@ -48,4 +48,13 @@ return require('packer').startup(function(use)
 	    }
     	}
 	use 'mfussenegger/nvim-dap'
+    use {
+        'doctorfree/cheatsheet.nvim',
+  
+        requires = {
+          {'nvim-telescope/telescope.nvim'},
+          {'nvim-lua/popup.nvim'},
+          {'nvim-lua/plenary.nvim'},
+        }
+      }  
 end)
