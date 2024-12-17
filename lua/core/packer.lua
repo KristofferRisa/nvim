@@ -53,6 +53,5 @@ return require('packer').startup(function(use)
         'doctorfree/cheatsheet.nvim',
         requires = {{'nvim-telescope/telescope.nvim'}, {'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
     }
-    use("folke/zen-mode.nvim")
     use("github/copilot.vim")
 end)
