@@ -27,4 +27,8 @@ vim.opt.scrolloff = 10
 -- or just use <C-\><C-n> to exit terminal mode
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 
-
+vim.filetype.add({
+  extension = {
+    prompty = "yaml",
+  }
+})
